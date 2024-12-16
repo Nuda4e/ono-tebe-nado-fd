@@ -1,1 +1,1 @@
-https://github.com/Nuda4e/ono-tebe-nado-
+https://github.com/Nuda4e/ono-tebe-nado-fd
