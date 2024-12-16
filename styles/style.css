@@ -302,7 +302,7 @@ h3 {
     width: 48px;
 }
 
-.footer__social-icon {
+.footer_social-icon {
     display: flex;
     gap:48px;
     place-self: start start ;
