@@ -12,13 +12,13 @@
   </head>
   <body>
     <!-- Секция HEADER -->
-    <header class="header grid__conteiner">
+    <header class="header grid__conteiner" id="header">
       <nav class="nav-option">
        <ul class="grid_position_list">
-        <li><a>главная</a></li>
+        <li><a href="#header">главная</a></li>
         <!-- Насчет стилизации, на мой взгляд все же есть различия, в фигме первый элемент без маркера и без подчеркивания -->
-        <li><a>посмотреть лоты</a></li>
-        <li><a>об аукционе</a></li>
+        <li><a href="#lots">посмотреть лоты</a></li>
+        <li><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <a href="/" class="header__logo--position">
@@ -45,7 +45,7 @@
         <div class="overlay"></div>
       </section>
     <!-- Секция LOTS -->
-      <section class="card-container section-lots">
+      <section class="card-container section-lots" id="lots">
         <h2 class="header-card_title header-card__lots_position">Лоты</h2>
         <div class="card-option">
           <a href="https://dzen.ru/a/ZcyiUWyUpEhzcjSH?sid=297806597204575895" target="_blank" class="card card-left cards-info">
@@ -75,7 +75,7 @@
         <a class="button-lots">посмотреть больше</a>
       </section>
     <!-- Секция ABOUT -->
-      <section class="card-container about-position">
+      <section class="card-container about-position" id="about">
         <div class="circle-background">
           <img src="./images/logo-white.svg" alt="Логотип" class="size-logo" >
         </div>
@@ -103,9 +103,9 @@
       </address>
       <nav class="footer-list">
         <ul class="list-option">
-          <li><a>главная</a></li>
-          <li><a>посмотреть лоты</a></li>
-          <li><a>об аукционе</a></li>
+          <li><a href="#header">главная</a></li>
+          <li><a href="#lots">посмотреть лоты</a></li>
+          <li><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <div class="footer_social-icon">
