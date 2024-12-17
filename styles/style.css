@@ -9,7 +9,7 @@
 
 .grid__conteiner {
     display: grid;
-    padding: 93px 0px 90px 50px;
+    padding: 95px 0px 90px 50px;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content:space-between;
@@ -26,21 +26,24 @@ li {
 }
 
 .grid_position_list {
-    display: flex;
+  display: flex;
 }
-.grid_position_list li {
+
+.header__links-list-item {
     list-style-type: circle;
-    text-underline-offset: 4px;
 }
-.grid_position_list li:hover {
-    list-style-type: none;
+
+.header__links-list-item_no-bullit {
+    list-style: none;
 }
-.grid_position_list li a {
+
+.header__link {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
-.grid_position_list li a:hover {
-    text-decoration: none !important;
+
+.header__link_active {
+    text-decoration: none;
 }
 
 .header__logo--position {
@@ -326,9 +329,9 @@ h3 {
     list-style-type: none;
     text-align: center;
 }
-.list-option li a {
+/*.list-option li a {
     text-decoration: underline;
 }
 .list-option li a:hover {
     text-decoration: none;
-}
+} */
