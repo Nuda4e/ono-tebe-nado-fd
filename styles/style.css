@@ -25,7 +25,7 @@ li {
     white-space: nowrap;
 }
 
-.grid_position_list{
+.grid_position_list {
     display: flex;
 }
 .grid_position_list li {
@@ -329,6 +329,6 @@ h3 {
 .list-option li a {
     text-decoration: underline;
 }
-.list-option li a:hover{
+.list-option li a:hover {
     text-decoration: none;
 }
