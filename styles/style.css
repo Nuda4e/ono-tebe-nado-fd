@@ -302,10 +302,9 @@ h3 {
 
 .footer-position {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 85px;
     display: grid;
     margin-top: 180px;
-    margin-bottom: 82px;
 }
 
 .footer__logo--size {
